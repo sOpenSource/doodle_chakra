@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="doodle_chakra.css">
+    <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <css-doodle class="doodle">
+      :doodle{
+        @grid: 1x9/20em;
+        grid-gap:2em;
+            box-shadow : 5px 5px 10px tomato;
+      }
+      background:white;
+      border:2px solid white;
+      box-shadow: 5px 5px 10px aqua;
+      animation: round infinite 6s linear;
+      @keyframes round {
+        0%{
+          transform:rotate(-360deg);
+        }
+        25%{
+        transform:rotate(20deg);
+        }
+        50%{
+        transform:rotate(40deg);
+        }
+        75%{
+        transform:rotate(60deg);
+
+        }
+        100%{
+          transform:rotate(10deg);
+        }
+
+}
+</css-doodle>
+
+  </body>
+</html>
