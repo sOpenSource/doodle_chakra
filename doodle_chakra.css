@@ -1,4 +1,11 @@
-.doodle{
+
+*{
+  background-color: black;
+  }
+
+  .doodle{
   margin:auto;
   margin-top: 5em;
+  position: fixed;
+  z-index: -1;
 }
